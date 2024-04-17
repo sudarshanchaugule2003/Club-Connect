@@ -1,0 +1,204 @@
+body{
+    background-color: #1f6f78;
+}
+.container {
+    display: flex;
+    /* margin: 2px; */
+    /* border: 2px solid rgb(15, 19, 15); */
+    height: 50px;
+    background-color: #118a7e;
+    position:static;
+}
+
+.first {
+    /* background-color: aqua; */
+    flex: 2;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    /* padding: 12px; */
+    color: white;
+
+}
+/* 
+.second {
+    flex: 1;
+    margin: 2px;
+    text-align: center;
+    justify-items: center;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.5s ease;
+} */
+.third{
+    flex:10 ;
+    margin: 2px;
+    text-align: left;
+    padding-top: 6px;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+}
+/* .second:hover{
+    color: burlywood;
+    transform: scale(1.3);
+    text-decoration: underline;
+} */
+img{
+    height:50px;
+}
+
+
+
+/* ==================== */
+nav{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    flex-wrap: wrap;
+    background-color: #118a7e;
+
+
+}
+/* .logo{
+    width: 140px;
+} */
+nav ul li {
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration:none ;
+    font-size: 18px;
+    position: relative;
+    /* padding-top: 9px; */
+
+    padding-bottom: 2px;
+    text-align: center;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #fffdfe;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size-adjust: 30px;
+
+}
+
+ain {
+    padding: 2rem;
+  }
+  
+  .club {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+  }
+  
+  .club-info {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .club-info:hover {
+    transform: translateY(-5px);
+  }
+  
+  .club-info img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .club-info h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .club-info p {
+    margin-bottom: 1rem;
+  }
+  
+  .club-info a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .club-info a:hover {
+    background: #555;
+  }
+  .nsslogo{
+    height: 60px;
+    width: 50px;
+    padding: px;
+
+  }
+  .CECLOGO{
+    height: 70px;
+    width: 80px;
+    padding: px;
+  }
+  .ROBOCON{
+    height: 60px;
+    width: 50px;
+    padding: px;
+  }
+.supra-logo{
+    height: 70px;
+    width: 60px;
+    padding: px;
+}
+  
+
+
+/* CSS styles */
+.club {
+    width: 60%;
+    float: left;
+  }
+  
+  .club-info {
+    padding-right: 20px; /* Add some space between club info and slideshow */
+  }
+  
+  .club-images {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  
+  .club-images img {
+    display: none;
+    width: 500px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .club-images img.active {
+    display: block;
+  }
+  
+ 

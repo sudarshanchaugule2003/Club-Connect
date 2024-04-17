@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel="stylesheet" href="./explore.css">
+</head>
+<body>
+    
+    <nav>
+		<div class="container">
+            <div class="first">
+                <img src="viitlogo-removebg-preview.jpg" alt="">
+            </div>
+            <div class="third">Club Connect</div>
+       
+
+            <!-- <div class="second"<a href="#">Home</a></div>
+            <div class="second">About</div>
+            <div class="second">Explore</div>
+            <div class="second">LogIn <a href="./login.html"></a></div> -->
+            <ul class="nav-links">
+				<li><a href="./inphase.html">Home</a></li>
+				<li><a href="./Explore.html">Explore</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./login.html">Sign up</a></li>
+			</ul> 
+	   </nav>
+
+
+
+       <main>
+        <section class="club">
+          <div class="club-info">
+            <div class="nsslogo">
+                <img src="./NSS LOGO.png" alt="NSS Club Logo">
+            </div>
+          
+            <h2>National Service Scheme (NSS) Club</h2>
+            <p>“Service to humanity is service to God.”</p>
+            <p>The National Service Scheme (NSS) Club at VIIT Pune promotes social welfare activities and community service among students. With the motto “Not Me, But You”, NSS encourages students to engage in various social service initiatives and contribute towards the betterment of society.</p>
+            <a href="#">Read More</a>
+          </div>
+        </section>
+        
+    
+        <section class="club">
+            <div class="club-info">
+                <div class="CECLOGO">
+                    <img src="./CEC LOGO.jpg" alt="Competitive Exam Cell Logo">
+                </div>
+              
+              <h2>Competitive Exam Cell VIIT</h2>
+              <p>“Aspire, Achieve, Excel.”</p>
+              <p>The Competitive Exam Cell at VIIT Pune aims to guide and support students in preparing for competitive examinations, including GATE, CAT, GRE, and others. With a focus on academic excellence and career development, the cell organizes coaching classes, workshops, and mock tests to help students achieve their goals.</p>
+              <a href="#">Read More</a>
+            </div>
+        
+
+
+          </section>
+          <section class="club">
+            <div class="club-info">
+                <div class="ROBOCON">
+                    <img src="./ROBOCON.jpeg" alt="ROBOCON Club Logo">
+                </div>
+           
+              <h2>ROBOCON Club VIIT</h2>
+              <p>“Innovate, Create, Dominate.”</p>
+              <p>The ROBOCON Club at VIIT Pune is dedicated to promoting robotics and innovation among students. With a focus on hands-on learning and practical experience, the club organizes workshops, competitions, and projects to foster creativity and problem-solving skills in the field of robotics.</p>
+              <a href="#">Read More</a>
+            </div>
+          </section>
+          
+
+          <section class="club">
+            <div class="club-info">
+              <div class="supra-logo">
+                <img src="./vishwaracers_1535602519.jpg" alt="SUPRA Club Logo">
+              </div>
+            
+              <h2>Vishwaracers</h2>
+              <p>Motto: "Driving Innovation, Engineering Excellence"</p>
+              <p>Vishwaracers is a national-level engineering student competition where teams design and fabricate formula-style vehicles. The competition challenges students' engineering skills, creativity, and teamwork.</p>
+              <a href="#">Read More</a>
+            </div>
+          </section>
+          
+
+
+          <div class="club-images">
+            <img class="active" src="./car.jpg" alt="ROBOCON Club Image 1">
+            <img src="./winng_1.jpg" alt="ROBOCON Club Image 2">
+            <!-- <img src="./Slide img/cec_viit_pune_teachers.jpg" alt="CEC Club"> -->
+            <img src="./Slide img/nss.viit.pune_ mount.jpg " alt="nss.viit.pune_ mount">
+            <img src="./Slide img/Front VR.jpg "alt="Front VR">
+            <img src="./Slide img/sign police.jpg "alt="CEC ">
+            <img src="./Slide img/vishwaracers_team.jpg "alt="vishwaracers_team ">
+
+
+            <!-- Add more images for each club as needed -->
+          </div>
+
+
+
+
+
+
+
+      </main>
+    
+      <script>
+        // JavaScript for slideshow functionality
+        const images = document.querySelectorAll('.club-images img');
+        let currentIndex = 0;
+    
+        setInterval(() => {
+          images[currentIndex].classList.remove('active');
+          currentIndex = (currentIndex + 1) % images.length;
+          images[currentIndex].classList.add('active');
+        }, 3000);
+      </script>
+
+      
+</body>
+</html>
